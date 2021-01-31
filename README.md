@@ -6,4 +6,6 @@ Install Mysql Workbench from https://dev.mysql.com/downloads/workbench/
 
 To import the sql tables,open your mysql Workbench, Go to "Server" - Select "Data Import" and choose the "timetable database.sql" file
 
-Now Run the "test.js" file in your terminal and explore the Smart Time-Table
+Now Run the "test.js" file in your terminal,
+Open the "login.html" in your browser to explore the Smart Time-Table 
+
