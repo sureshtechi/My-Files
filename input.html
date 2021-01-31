@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="inpa.css"/>
+	<title>
+		Smart Time-Table System
+	</title>
+     <script>
+    function generate() {
+
+        var a = parseInt(document.getElementById("b1").value);
+
+        for (i = 0; i < a; i++) {
+            var input = document.createElement("input");
+             ch.appendChild(input);
+        }
+    }
+    </script>
+
+</head>
+<body>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+ <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span> -->
+  <form class="modal-content" action="http://localhost:8081/input" method="POST" class="container">
+    <div class="container">
+      <h1>
+      	Enter the Details Below
+      </h1>
+      <p>Please fill in this form to create an University Time-Table</p>
+      <hr>
+      <label for="email"><b>Branch</b></label>
+      <input id = "CB1" type="text"  placeholder="Enter the Number of Branches" name="email" required >
+        
+        <label for="email"><b>Branch 1</b></label>
+        <input id = "CB1" type="text"  placeholder="Enter the Branch 1" name="bch1" required >
+
+<!--       <button class="btn" id="b1"  >Enter</button> -->
+
+<label for="psw-repeat"><b>Course</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Number of Courses" name="email" required>
+
+<label for="psw-repeat"><b>Course 1</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 1" name="c1" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr1" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m1" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id1" required>
+
+
+<label for="psw-repeat"><b>Course 2</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 2" name="c2" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr2" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m2" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id2" required>
+
+<label for="psw-repeat"><b>Course 3</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 3" name="c3" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr3" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m3" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id3" required>
+
+<label for="psw-repeat"><b>Course 4</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 4" name="c4" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr4" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m4" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id4" required>
+
+<label for="psw-repeat"><b>Course 5</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 5" name="c5" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr5" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m5" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id5" required>
+
+<label for="psw-repeat"><b>Course 6</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 6" name="c6" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr6" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m6" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id6" required>
+
+<label for="psw-repeat"><b>Course 7</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 7" name="c7" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr7" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m7" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id7" required>
+
+<label for="psw-repeat"><b>Course 8</b></label>
+<input id = "CB4" type="text" placeholder="Enter the Course 8" name="c8" required>
+<input id = "CB4" type="text" placeholder="Enter the Number of Credits" name="cr8" required>
+<input id = "CB4" type="text" placeholder="Enter the Mode" name="m8" required>
+<input id = "CB4" type="text" placeholder="Enter the Course ID" name="id8" required>
+
+      <label for="psw"><b>Faculty</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Number of Faculty" name="email" required>
+
+      <label for="psw"><b>Faculty 1</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 1" name="f1" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc1" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid1" required>
+
+      <label for="psw"><b>Faculty 2</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 2" name="f2" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc2" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid2" required>
+
+      <label for="psw"><b>Faculty 3</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 3" name="f3" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc3" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid3" required>
+
+      <label for="psw"><b>Faculty 4</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 4" name="f4" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc4" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid4" required>
+
+      <label for="psw"><b>Faculty 5</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 5" name="f5" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc5" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid5" required>
+
+      <label for="psw"><b>Faculty 6</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 6" name="f6" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc6" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid6" required>
+
+      <label for="psw"><b>Faculty 7</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 7" name="f7" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc7" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid7" required>
+
+      <label for="psw"><b>Faculty 8</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 8" name="f8" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc8" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid8" required>
+
+      <label for="psw"><b>Faculty 9</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 9" name="f9" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc9" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid9" required>
+
+      <label for="psw"><b>Faculty 10</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 10" name="f10" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc10" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid10" required>
+
+      <label for="psw"><b>Faculty 11</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 11" name="f11" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc11" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid11" required>
+
+      <label for="psw"><b>Faculty 12</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 12" name="f12" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc12" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid12" required>
+
+      <label for="psw"><b>Faculty 13</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 13" name="f13" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc13" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid13" required>
+
+      <label for="psw"><b>Faculty 14</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 14" name="f14" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc14" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid14" required>
+
+      <label for="psw"><b>Faculty 15</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 15" name="f15" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc15" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid15" required>
+
+      <label for="psw"><b>Faculty 16</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 16" name="f16" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc16" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid16" required>
+
+      <label for="psw"><b>Faculty 17</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 17" name="f17" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc17" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid17" required>
+
+      <label for="psw"><b>Faculty 18</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 18" name="f18" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc18" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid18" required>
+
+      <label for="psw"><b>Faculty 19</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 19" name="f19" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc19" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid19" required>
+
+      <label for="psw"><b>Faculty 20</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 20" name="f20" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc20" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid20" required>
+
+      <label for="psw"><b>Faculty 21</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 21" name="f21" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc21" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid21" required>
+
+      <label for="psw"><b>Faculty 22</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 22" name="f22" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc22" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid22" required>
+
+      <label for="psw"><b>Faculty 23</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 23" name="f23" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc23" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid23" required>
+
+      <label for="psw"><b>Faculty 24</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 24" name="f24" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc24" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid24" required>
+
+      <label for="psw"><b>Faculty 25</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 25" name="f25" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc25" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid25" required>
+
+      <label for="psw"><b>Faculty 26</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 26" name="f26" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc26" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid26" required>
+
+      <label for="psw"><b>Faculty 27</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 27" name="f27" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc27" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid27" required>
+
+      <label for="psw"><b>Faculty 28</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 28" name="f28" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc28" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid28" required>
+
+      <label for="psw"><b>Faculty 29</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 29" name="f29" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc29" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid29" required>
+
+      <label for="psw"><b>Faculty 30</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 30" name="f30" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc30" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid30" required>
+
+      <label for="psw"><b>Faculty 31</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 31" name="f31" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc31" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid31" required>
+
+      <label for="psw"><b>Faculty 32</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 32" name="f32" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc32" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid32" required>
+
+      <label for="psw"><b>Faculty 33</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 33" name="f33" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc33" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid33" required>
+
+      <label for="psw"><b>Faculty 34</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 34" name="f34" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc34" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid34" required>
+
+      <label for="psw"><b>Faculty 35</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 35" name="f35" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc35" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid35" required>
+
+      <label for="psw"><b>Faculty 36</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 36" name="f36" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc36" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid36" required>
+
+      <label for="psw"><b>Faculty 37</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 37" name="f37" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc37" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid37" required>
+
+      <label for="psw"><b>Faculty 38</b></label>
+      <input id = "CB2" type="text" placeholder="Enter the Name of Faculty 38" name="f38" required>
+      <input id = "CB2" type="text" placeholder="Enter the Faculty ID" name="fc38" required>
+      <input id = "CB2" type="text" placeholder="Enter the Course ID" name="cid38" required>
+
+      
+      
+      <div class="clearfix">
+        <button type="submit" class="signup">Create Time-Table</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+<script type="text/javascript">
+
+function prompt1()
+{
+    var text,i;
+    var x = document.getElementById("CB1").value;
+  for(i=0;i<x;i++)
+  {
+    do
+    {
+      var f = prompt("Please Enter the Branch "+(i+1), "");
+    } while(f == "");
+  text=i;
+  }
+}
+
+function prompt2()
+{
+    var text,i;
+    var x = document.getElementById("CB2").value;
+  for(i=0;i<x;i++)
+  {
+    do
+    {
+      var f = prompt("Please Enter the Faculty "+(i+1), "");
+    } while(f == "");
+  text=i;
+  }
+}
+
+function prompt3()
+{
+    var text,i;
+    var x = document.getElementById("CB3").value;
+  for(i=0;i<x;i++)
+  {
+    do
+    {
+      var f = prompt("Please Enter the Block "+(i+1), "");
+    } while(f == "");
+  text=i;
+  }
+}
+
+function prompt4()
+{
+    var text,i;
+    var x = document.getElementById("CB4").value;
+  for(i=0;i<x;i++)
+  {
+    do
+    {
+      var f = prompt("Please Enter the Course "+(i+1), "");
+    } while(f == "");
+  text=i;
+  }
+}
+</script>
+</body>
+</html>   
